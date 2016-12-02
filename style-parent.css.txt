@@ -1,0 +1,118 @@
+/*
+ Theme Name:	YourStore Child Theme
+ Theme URI:		http://themeforest.net/user/smartdatasoft/portfolio
+ Description:	YourStore Child Theme
+ Author:		David White
+ Author URI:	http://themeforest.net/user/smartdatasoft/portfolio
+ Template:		yourstore
+ Version:		1.0.0
+*/
+
+@import url("../yourstore/style.css");
+
+
+/* =Theme customization starts here
+------------------------------------------------------- */
+/* Gets rid of page title */
+#pageContent > h1 { display: none; }
+
+/* Mobile header image size*/
+@media (max-width: 1024px) {
+	#header .logo {
+    max-width: 87%;
+		margin: 40px 0px 10px 0px;
+	}
+	#header .container:first-child .row {
+		padding-top: 0px;
+	}
+	#header .cart {
+		right: 10px;
+	}
+}
+
+/* Mobile list image size, name and price formatting */
+@media (max-width: 767px) {
+	#pageContent .product-listing.row .product__inside__image img.img-loaded {
+		width: 175px;
+		height: 175px;
+		float: left;
+	}
+	.product-listing.row .product__inside__name h2 {
+		font-size: .75em;
+		padding:0;
+		margin: 0em 0 0.54em !important;
+	}
+	.product-listing.row div.product span.price {
+		font-size: 20px;
+	}
+}
+/* Yeshe Logo image changes */
+
+#header img.logo {
+    display: inline-block;
+    original max-height: 80px;
+  max-height: 150px;
+}
+@media (max-width: 1200px) {
+    #header .search.link-inline {
+    margin-right: 0px;
+  }
+  /* yeshe added */
+  #header img.logo {
+    max-height: 100px;
+  }
+  /*end yeshe add*/
+}
+@media (min-width: 1770px) {
+    #header .search.link-inline {
+    margin-right: 13px;
+  }
+  /*Yeshe added below*/
+  #header img.logo {
+    max-height: 150px;
+  }
+  /*End Yeshe Edit*/
+}
+@media (min-width: 768px) {
+    #header .logo.img-responsive {
+    max-width: inherit;
+  }
+  /* Yeshe added below */
+    #header img.logo {
+    max-height: 90px;
+  }
+  /*end Yeshe add*/
+}
+@media (min-width: 1025px) {
+  #header .slogan {
+    padding: 16px 0 0 0;
+    display: inline-block;
+    vertical-align: top;
+  }
+  /*yeshe added below*/
+    #header img.logo {
+    max-height: 100px;
+  }
+  /*end yeshe add*/
+}
+@media (max-width: 1024px) {
+    /* */
+  #header .logo {
+    max-width: 50%;
+    margin: 17px 10px 3px 10px;
+    /*yeshe added*/
+    max-height: 100px;
+    /*end yeshe add*/
+  }
+/* DW trying to get rid of green dots in "brands" at footer */
+.simple-list li:normal {
+  position: absolute;
+  display: block;
+  top: 10px;
+  left: 0;
+  color: #1fc0a0;
+  font-family: 'Material Icons';
+  content: "\e3a6";
+  font-size: 0.53em;
+  line-height: 1em;
+}
