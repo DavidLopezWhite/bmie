@@ -1,0 +1,33 @@
+/* Gets rid of page title */
+#pageContent > h1 { display: none; }
+
+/* Mobile header image size*/
+@media (max-width: 1024px) {
+	#header .logo {
+    max-width: 87%;
+		margin: 40px 0px 10px 0px;
+	}
+	#header .container:first-child .row {
+		padding-top: 0px;
+	}
+	#header .cart {
+		right: 10px;
+	}
+}
+
+/* Mobile list image size, name and price formatting */
+@media (max-width: 767px) {
+	#pageContent .product-listing.row .product__inside__image img.img-loaded {
+		width: 175px;
+		height: 175px;
+		float: left;
+	}
+	.product-listing.row .product__inside__name h2 {
+		font-size: .75em;
+		padding:0;
+		margin: 0em 0 0.54em !important;
+	}
+	.product-listing.row div.product span.price {
+		font-size: 20px;
+	}
+}
