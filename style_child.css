@@ -31,3 +31,61 @@
 		font-size: 20px;
 	}
 }
+/* Yeshe Logo image changes */
+
+#header img.logo {
+  /*display: inline-block;*/
+  /*original max-height: 80px;*/
+  max-height: 150px;
+}
+@media (max-width: 1200px) {
+  /* #header .search.link-inline {
+    margin-right: 0px;
+  } */
+  /* yeshe added */
+  #header img.logo {
+    max-height: 100px;
+  }
+  /*end yeshe add*/
+}
+@media (min-width: 1770px) {
+  /* #header .search.link-inline {
+    margin-right: 13px;
+  } */
+  /*Yeshe added below*/
+  #header img.logo {
+    max-height: 150px;
+  }
+  /*End Yeshe Edit*/
+}
+@media (min-width: 768px) {
+  /* #header .logo.img-responsive {
+    max-width: inherit;
+  } */
+  /* Yeshe added below */
+  /*#header img.logo {
+    max-height: 90px;
+  }*/
+  /*end Yeshe add*/
+}
+@media (min-width: 1025px) {
+  #header .slogan {
+    padding: 16px 0 0 0;
+    display: inline-block;
+    vertical-align: top;
+  }
+  /*yeshe added below*/
+  /*#header img.logo {
+    max-height: 100px;
+  }*/
+  /*end yeshe add*/
+}
+@media (max-width: 1024px) {
+/* */
+  #header .logo {
+    /* max-width: 50%;
+    margin: 17px 10px 3px 10px; */
+    /*yeshe added*/
+    max-height: 100px;
+    /*end yeshe add*/
+  }
