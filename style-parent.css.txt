@@ -19252,7 +19252,10 @@ footer .widget .social-links:hover ul a:hover,
 .breadcrumbs {
   margin-bottom: 14px;
   padding: 10px 0 10px;
-
+  display: none;
+}
+#centerColumn > .title-box {
+  display: none;
 }
 @media (max-width: 767px) {
   .breadcrumbs {
@@ -27654,4 +27657,19 @@ margin: 0;
 }
 #yith-quick-view-modal .qty-label {
     display: none;
+}
+#pageContent > h1 { display: none; }
+@media (max-width: 1024px) {
+	#header .cart {
+		top: 51px;
+		margin-top: 0px;
+		right: 5px;
+	}
+	#header .logo {
+		max-width: 83%;
+		margin: 40px 0px 10px 10px;
+	}
+	#header .container:first-child .row {
+		padding-top: 0px;
+	}
 }
