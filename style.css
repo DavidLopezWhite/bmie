@@ -1,3 +1,17 @@
+/*
+ Theme Name:	YourStore Child Theme
+ Theme URI:		http://themeforest.net/user/smartdatasoft/portfolio
+ Description:	YourStore Child Theme
+ Author:		David White
+ Author URI:	http://themeforest.net/user/smartdatasoft/portfolio
+ Template:		yourstore
+ Version:		1.0.0
+*/
+
+@import url("../yourstore/style.css");
+
+/* =Theme customization starts here
+------------------------------------------------------- */
 /* Gets rid of page title */
 #pageContent > h1 { display: none; }
 
@@ -30,6 +44,10 @@
 	.product-listing.row div.product span.price {
 		font-size: 20px;
 	}
+}
+/* get rid of bullets in footer */
+.simple-list li:before {
+  content: normal;
 }
 /* Yeshe Logo image changes */
 
