@@ -48,8 +48,10 @@
 /* get rid of bullets in footer */
 footer .simple-list li:before {
     content: normal;
-    padding: 0;
 }
+.simple-list li {
+      padding: 0;
+  }
 /* Yeshe Logo image changes */
 
 #header img.logo {
