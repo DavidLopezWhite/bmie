@@ -7,9 +7,9 @@
  Template:		yourstore
  Version:		1.0.0
 */
-
+ 
 @import url("../yourstore/style.css");
-
+ 
 /* =Theme customization starts here
 ------------------------------------------------------- */
 /* Gets rid of page title */
@@ -45,21 +45,17 @@
 		font-size: 20px;
 	}
 }
-/* get rid of bullets in footer */
-footer .simple-list li:before {
-  content: normal;
-}
 /* Yeshe Logo image changes */
 
 #header img.logo {
-  /*display: inline-block;*/
-  /*original max-height: 80px;*/
+    display: inline-block;  
+    original max-height: 80px;
   max-height: 150px;
 }
 @media (max-width: 1200px) {
-  /* #header .search.link-inline {
+    #header .search.link-inline {
     margin-right: 0px;
-  } */
+  }
   /* yeshe added */
   #header img.logo {
     max-height: 100px;
@@ -67,9 +63,9 @@ footer .simple-list li:before {
   /*end yeshe add*/
 }
 @media (min-width: 1770px) {
-  /* #header .search.link-inline {
+    #header .search.link-inline {
     margin-right: 13px;
-  } */
+  } 
   /*Yeshe added below*/
   #header img.logo {
     max-height: 150px;
@@ -77,13 +73,13 @@ footer .simple-list li:before {
   /*End Yeshe Edit*/
 }
 @media (min-width: 768px) {
-  /* #header .logo.img-responsive {
+    #header .logo.img-responsive {
     max-width: inherit;
-  } */
+  } 
   /* Yeshe added below */
-  /*#header img.logo {
+    #header img.logo {
     max-height: 90px;
-  }*/
+  }
   /*end Yeshe add*/
 }
 @media (min-width: 1025px) {
@@ -93,17 +89,29 @@ footer .simple-list li:before {
     vertical-align: top;
   }
   /*yeshe added below*/
-  /*#header img.logo {
+    #header img.logo {
     max-height: 100px;
-  }*/
+  }
   /*end yeshe add*/
 }
 @media (max-width: 1024px) {
-/* */
+    /* */
   #header .logo {
-    /* max-width: 50%;
-    margin: 17px 10px 3px 10px; */
+    max-width: 50%;
+    margin: 17px 10px 3px 10px; 
     /*yeshe added*/
     max-height: 100px;
     /*end yeshe add*/
   }
+/* DW trying to get rid of green dots in "brands" at footer */
+.simple-list li:normal {
+  position: absolute;
+  display: block;
+  top: 10px;
+  left: 0;
+  color: #1fc0a0;
+  font-family: 'Material Icons';
+  content: "\e3a6";
+  font-size: 0.53em;
+  line-height: 1em;
+}
