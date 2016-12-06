@@ -120,6 +120,7 @@ footer .simple-list li:before {
     /*end yeshe add*/
    }
  }
+<<<<<<< Updated upstream
 /* Changes Dan 12-5*/
 #wpcw_contact-3 li.no-label {
 	padding: 0;
@@ -133,3 +134,13 @@ footer .simple-list li:before {
 #search-5 > .mobile-collapse__title {
 	padding-top: 30px;
 }
+=======
+ /* 4th footer column padding */
+ #wpcw_contact-3 li.no-label {
+   padding:0;
+ }
+ .simple-list.vendor-filter > .parent-cat {
+   padding: 0px;
+   height: 27px;
+ }
+>>>>>>> Stashed changes
