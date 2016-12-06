@@ -120,3 +120,16 @@ footer .simple-list li:before {
     /*end yeshe add*/
    }
  }
+/* Changes Dan 12-5*/
+#wpcw_contact-3 li.no-label {
+	padding: 0;
+}
+
+.simple-list.vendor-filter > .parent-cat {
+	padding: 0px;
+	height: 27px;
+}
+
+#search-5 > .mobile-collapse__title {
+	padding-top: 30px;
+}
