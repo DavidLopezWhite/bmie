@@ -12,9 +12,19 @@
 
 /* =Theme customization starts here
 ------------------------------------------------------- */
-/* Gets rid of page title */
-#pageContent > h1 { display: none; }
-
+/* Gets rid of home page title */
+#pageContent > h1 { display: none;
+}
+/* gets rid of divider line */
+.breadcrumbs {
+  margin-bottom: 14px;
+  padding: 10px 0 10px;
+  display: none;
+}
+/* get rid of title on other pages */
+#centerColumn > .title-box {
+  display: none;
+}
 /* Mobile header image size*/
 @media (max-width: 1024px) {
 	#header .logo {
@@ -28,7 +38,6 @@
 		right: 10px;
 	}
 }
-
 /* Mobile list image size, name and price formatting */
 @media (max-width: 767px) {
 	#pageContent .product-listing.row .product__inside__image img.img-loaded {
