@@ -1371,13 +1371,13 @@ jQuery(function($j) {
     $j("header .cart").click(function() {
         $j("#slider").toggleClass('slider-button');
     });
-	
+	/*
 	if ($j("html.touch").length > 0) {
 		 $j(".product .product__inside__image a").click(function(event) {	       
 	        event.preventDefault();
 	    });	
 	}
-	
+	*/
 
 });
 
