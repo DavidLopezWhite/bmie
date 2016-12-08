@@ -312,17 +312,22 @@
 	        var $jthis = $j(this),
 	            hide = $jthis.text() === "+",
 	            $jul = $jthis.parent(".name").next("ul"),
-	            $jname = $jthis.next("a");
-	        $jthis.click(function() {
-	            if ($jul.css("display") ==
-	                "block") $jul.slideUp("slow");
-	            else $jul.slideDown("slow");
-	            $j(this).html(hide ? "&minus;" : "+");	            
-	            hide = !hide
-	        })
+	            $jname = $jthis.next("a"),
+				eventData = $jthis.data("events");
+			if (!(eventData && eventData.click)) {
+				$jthis.click(function() {
+					if ( $jul.css("display") == "block") {
+						$jul.slideUp("slow");
+					} else {
+						$jul.slideDown("slow");
+					}
+					$j(this).html(hide ? "&minus;" : "+");
+				});
+			}
 	    })
 	});
-
+	
+	
 
 	//end mobile
 				
