@@ -154,3 +154,12 @@ footer .simple-list li:before {
  #search-5 > .mobile-collapse__title {
  	padding-top: 30px;
  }
+ /* mobile menu hover color */
+ .breadcrumbs .breadcrumb--ys span.breadcrumb_last, #off-canvas-menu ul li .name.open a:hover, .woocommerce .widget_layered_nav ul li a:hover, #leftColumn .widget_nav_menu ul li a:hover, a.color, a.color:hover, .breadcrumb > .active, .expander-list li.active > a, .expander-list li.open > a, .expander-list > li > a:hover {
+     color: #736764;
+ }
+ @media (max-width: 1024px) {
+ #off-canvas-menu ul li .name.open a {
+     color: #736764;
+  {
+ {
