@@ -1917,3 +1917,11 @@ jQuery(function($j) {
 });
 
 mobileOnlyCarousel();
+
+jQuery(function(){
+	if (document.title.indexOf("Home") == 0) {
+		jQuery("section.breadcrumbs").each(function(i){
+			this.style.display = "none";
+		});
+	}
+});
