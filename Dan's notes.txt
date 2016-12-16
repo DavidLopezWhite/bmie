@@ -1,0 +1,19 @@
+/* 12-15-2016 
+  Changing header and shopping cart icon
+*/
+@media (max-width: 768px) {
+	#header .cart {
+		right: 25px;
+		margin-top: -20px;
+	}
+	#header .logo.img-responsive {
+		width: 80%;
+	}
+	.cart .dropdown > a .icon {
+		font-size: 1.5em !important;
+	}
+	.badge--cart {
+		top: -25px;
+		font-size: 1em;
+	}
+}
