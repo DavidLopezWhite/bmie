@@ -135,44 +135,51 @@ footer .simple-list li:before {
 	padding-top: 30px;
 }
 =======
- /* 4th footer column padding */
- #wpcw_contact-3 li.no-label {
-   padding:0;
- }
- .simple-list.vendor-filter > .parent-cat {
-   padding: 0px;
-   height: 27px;
- }
- /* Changes Dan 12-5*/
- #wpcw_contact-3 li.no-label {
- 	padding: 0;
- }
- .simple-list.vendor-filter > .parent-cat {
- 	padding: 0px;
- 	height: 27px;
- }
- #search-5 > .mobile-collapse__title {
- 	padding-top: 30px;
- }
- /* mobile menu hover color */
- .breadcrumbs .breadcrumb--ys span.breadcrumb_last, #off-canvas-menu ul li .name.open a:hover, .woocommerce .widget_layered_nav ul li a:hover, #leftColumn .widget_nav_menu ul li a:hover, a.color, a.color:hover, .breadcrumb > .active, .expander-list li.active > a, .expander-list li.open > a, .expander-list > li > a:hover {
-     color: #736764;
- }
- @media (max-width: 1024px) {
- #off-canvas-menu ul li .name.open a {
-     color: #736764;
-  }
+/* 4th footer column padding */
+#wpcw_contact-3 li.no-label {
+  padding:0;
 }
-   /* space on mobile logo?? */
-   @media (max-width: 1200px) {
-   #header img.logo {
-       max-height: 100px;
-       padding-left: 5px;
-    }
-   }
-   /* white space home b/w menu and header */
-   @media (max-width: 767px) {
-   .woocommerce-tabs, .content {
-       margin-top: 0px;
-    }
-   }
+.simple-list.vendor-filter > .parent-cat {
+  padding: 0px;
+  height: 27px;
+}
+/* Changes Dan 12-5*/
+#wpcw_contact-3 li.no-label {
+ padding: 0;
+}
+.simple-list.vendor-filter > .parent-cat {
+ padding: 0px;
+ height: 27px;
+}
+#search-5 > .mobile-collapse__title {
+ padding-top: 30px;
+}
+/* mobile menu hover color */
+.breadcrumbs .breadcrumb--ys span.breadcrumb_last, #off-canvas-menu ul li .name.open a:hover, .woocommerce .widget_layered_nav ul li a:hover, #leftColumn .widget_nav_menu ul li a:hover, a.color, a.color:hover, .breadcrumb > .active, .expander-list li.active > a, .expander-list li.open > a, .expander-list > li > a:hover {
+ color: #736764;
+}
+@media (max-width: 1024px) {
+#off-canvas-menu ul li .name.open a {
+     color: #736764;
+ }
+}
+/* space on mobile logo?? */
+@media (max-width: 1200px) {
+#header img.logo {
+  max-height: 100px;
+  padding-left: 5px;
+ }
+}
+/* white space home b/w menu and header */
+@media (max-width: 767px) {
+.woocommerce-tabs, .content {
+  margin-top: 0px;
+ }
+}
+/* Filter button mobile */
+.filters-row__mode {
+  display: none;
+}
+.divider {
+  height: 0;
+}
