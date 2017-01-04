@@ -236,3 +236,9 @@ font-size: 1.5em !important;
     float:left;
   }
 }
+/* Product page related products carousel arrows  */
+@media (max-width: 767px) {
+  .carousel-products__button span.btn-prev, .carousel-products__button span.btn-next {
+    top: 235px;
+  }
+}
