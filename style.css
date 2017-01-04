@@ -226,3 +226,13 @@ font-size: 1.5em !important;
   font-size: 18px;
   font-family: lato;
 }
+/* Fixed carousel large width in mobile  */
+@media (max-width: 767px) {
+  .woocommerce .products .carousel-inner .woocommerce-LoopProduct-link img {
+    display: block;
+    width: auto !important;
+  }
+    .product__inside__carousel.slide {
+    float:left;
+  }
+}
